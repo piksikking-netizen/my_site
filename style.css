@@ -1,0 +1,27 @@
+/* 
+color
+border
+border-radius
+width - ширина
+heigth - высота
+font-family
+background-color
+background-image
+
+padding
+margin
+ */
+
+.img {
+    background-color: grey;
+    width: 120px;s
+    height: 180px;
+}
+
+.block {
+    /* border: 1px solid black; */
+    background-color: palegoldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}

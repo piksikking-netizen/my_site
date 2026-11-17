@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт</title>
+    <meta name="description" content="Этот сайт посвящен чему-то там" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- СЛЕВА -->
+      <div class="block text">
+        <p>Сделаете еще <span id="like-action">10</span> лайков и вы будете участовать в акции</p>
+        <h1>Title</h1>
+        <p>Just text. <span>This is famous</span> text.</p>
+        <a href="#">Link</a>
+      </div>
+
+      <!-- СПРАВА -->
+      <div class="media block">
+        <div class="img"></div>
+        <p>😺 Пост с котами</p>
+        <button id="like-btn-cat">Поставить лайк</button>
+        <p>Кол-во лайков: <span id="like-count-cat">0</span></p>
+      </div>
+      <div class="media block">
+        <div class="img"></div>
+        <p>🐶 Пост с собаками</p>
+        <button id="like-btn-dog" click="like-count-dog + 1">Поставить лайк</button>
+        <p>Кол-во лайков: <span id="like-count-dog">0</span></p>
+      </div>
+    </div>
+
+  </body>
+
+  <script src="script.js"></script>
+  <!-- alert("hello world") -->
+      
+</html>
